@@ -37,6 +37,9 @@
     "prepack": "clean-package",
     "postpack": "clean-package restore"
   },
+  "peerDependencies": {
+    "react": ">=18"
+  },
   "devDependencies": {
     "clean-package": "2.2.0"
   },
